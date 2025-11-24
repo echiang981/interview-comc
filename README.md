@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a coding challenge designed to measure your raw ability to code and solve problems quickly. Your task is to build an LLM-powered translation system that translates the first volume of **The Count of Monte Cristo** (*Le Comte de Monte-Cristo*), the classic French novel by Alexandre Dumas.
+This repository contains a coding challenge designed to measure your raw ability to code and solve problems quickly. Your task is to build an LLM-powered translation system that translates the first volume of **The Count of Monte Cristo** (_Le Comte de Monte-Cristo_), the classic French novel by Alexandre Dumas.
 
 ## The Challenge
 
@@ -25,8 +25,23 @@ You will be judged on two primary factors:
 ### Installation
 
 ```bash
+# If you are doing this in Python, navigate to the python directory
+cd python
+# Create a virtual environment
+python3 -m venv venv
+
+# Activate the virtual environment
+# On macOS/Linux:
+source venv/bin/activate
+# On Windows:
+# venv\Scripts\activate
+
 # Install dependencies
 pip install -r requirements.txt
+
+# Set up environment variables
+cp .env.example .env
+# Then edit .env and add your API keys
 ```
 
 ### Source Material

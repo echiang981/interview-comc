@@ -1,0 +1,7 @@
+# LLM API clients
+openai>=1.0.0
+anthropic>=0.18.0
+
+# Utility libraries
+python-dotenv>=1.0.0
+tqdm>=4.65.0
