@@ -8,6 +8,21 @@ This repository contains a coding challenge designed to measure your raw ability
 
 Build a system that uses Large Language Models (LLMs) to translate the French source text (`source/comc.txt`) into high-quality English.
 
+## Your Task
+
+Design and implement a translation system that:
+
+- Reads the French source text
+- Uses LLM(s) to translate it to English
+- Produces a high-quality English translation
+
+Questions to consider before you start:
+
+- How do will you ensure high quality translation?
+- How do you ensure the translation is consistent with the original text?
+- What are the limitations of the LLM(s) you are using?
+- How will you structure your code?
+
 ## Evaluation Criteria
 
 You will be judged on two primary factors:
@@ -75,14 +90,6 @@ npm run dev
 ### Source Material
 
 The French source text is located in `source/comc.txt`.
-
-## Your Task
-
-Design and implement a translation system that:
-
-- Reads the French source text
-- Uses LLM(s) to translate it to English
-- Produces a high-quality English translation
 
 ## Deliverables
 
