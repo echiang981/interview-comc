@@ -17,16 +17,16 @@ You will be judged on two primary factors:
 
 ## Getting Started
 
-### Prerequisites
+You have the choice of using either Python or TypeScript to complete this challenge.
 
-- Python 3.8 or higher
-- Access to an LLM API (e.g., OpenAI, Anthropic, etc.)
+### Python
 
-### Installation
+To get started with Python, follow these steps:
 
 ```bash
-# If you are doing this in Python, navigate to the python directory
+# Navigate to the python directory
 cd python
+
 # Create a virtual environment
 python3 -m venv venv
 
@@ -42,6 +42,34 @@ pip install -r requirements.txt
 # Set up environment variables
 cp .env.example .env
 # Then edit .env and add your API keys
+```
+
+Write your code in the `src` directory, then run it with:
+
+```bash
+python src/main.py
+```
+
+### TypeScript
+
+To get started with TypeScript, follow these steps:
+
+```bash
+# Navigate to the typescript directory
+cd typescript
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env
+# Then edit .env and add your API keys
+```
+
+Write your code in the `src` directory, then run it with:
+
+```bash
+npm run dev
 ```
 
 ### Source Material
